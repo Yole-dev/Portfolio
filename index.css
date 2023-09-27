@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.displayNone {
+    display: none;
+}
+
+ion-icon {
+    color: white;
+    font-size: 25px;
+    background-color: rgb(19, 19, 19);
+    padding: 0.5rem;
+    border-radius: 100%;
+    border: solid 1px rgb(0, 220, 199);
+}
+/* Mobile view */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: rgb(19, 19, 19);
+}
+
+header {
+    background: url(images/mobile\ header\ background.jpg);
+    background-position: center;
+    height: 250px;
+}
+
+/* header p {
+    color: rgba(255, 255, 255, 0.658);
+} */
+
+header > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.699);
+    height: inherit;
+}
+
+header > div > div:first-of-type {
+    display: none;
+}
+
+nav:first-of-type {
+    text-align: right;
+    /* background: rgb(19, 19, 19); */
+    width: 100%;
+    padding: 0.3rem;
+    position: fixed;
+    z-index: 999;
+}
+
+nav:last-of-type { 
+    position: fixed;
+    z-index: 99;
+    height: 100vh;
+    width: 100%;
+    padding: 1rem 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.486);
+}
+
+nav:last-of-type div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 70%;
+    background-color: rgb(19, 19, 19);
+    border: solid 1px rgb(0, 220, 199);
+    border-radius: 0.7rem;
+    color: rgba(255, 255, 255, 0.658);
+    padding: 1rem;
+}
+
+nav:last-of-type ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav:last-of-type ul li:last-of-type {
+    margin-top: 0.8rem;
+}
+
+nav:last-of-type ul li:last-of-type a {
+    padding: 0.4rem 0.6rem;
+    background: turquoise;
+    color: black;
+    border-radius: 0.7rem;
+} 
+
+header > div > div:last-of-type {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 4rem;
+}
+
+header > div > div:last-of-type span {
+    color:rgb(0, 220, 199);
+}
+
+header > div > div:last-of-type p:last-of-type {
+    font-size: 0.75rem;
+    padding-left: 5px;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.socialMediaLinks {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 1.5rem;
+}
+
+.socialMediaLinks a {
+    background: rgba(205, 205, 205, 0.404);
+    padding: 0.5rem 0.6rem;
+    border-radius: 100%;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+
+main > div:first-of-type {
+    text-align: center;
+}
+
+main > div:first-of-type > small:first-of-type {
+    text-transform: uppercase;
+    font-size: 600;
+    color:rgb(205, 205, 205);
+    line-height: 3;
+}
+
+main > div:first-of-type > p > span{
+    color:rgb(0, 220, 199);
+}
+
+main > div:last-of-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 3rem 0 3rem 0;
+}
+
+main > div:last-of-type > div {
+    width: 90%;
+    border-radius: 0.8rem;
+    padding: 2rem 2rem;
+    border: solid 2px rgb(0, 220, 199);
+    background:rgb(38, 38, 38);
+}
+
+main > div:last-of-type > div:first-of-type {
+    background: rgb(0, 221, 201);
+}
+
+main > div:last-of-type > div p:first-of-type {
+    font-size: 2.4rem;
+    color: rgb(48, 48, 48);
+    text-align: right;
+}
+
+main > div:last-of-type > div:first-of-type p:first-of-type {
+    color: rgba(48, 48, 48, 0.301);
+}
+
+main > div:last-of-type > div p:last-of-type {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+}
+
+main > div:last-of-type > div:first-of-type p:last-of-type {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+}
+
+main > div:last-of-type > div > div {
+    background-color: rgba(255, 255, 255, 0.658);
+    height: 1px;
+    width: 25%;
+    margin-top: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+main > div:last-of-type > div:first-of-type > div {
+    background: black;
+}
+
+main > div:last-of-type > div small {
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+main > div:last-of-type > div:first-of-type small {
+    font-size: 1rem;
+    font-weight: 200;
+    color: black;
+}
+
+main > div:last-of-type > div:first-of-type {
+    background: rgb(0, 220, 199);
+}
+
+/* Media query for desktop view */
+@media screen and (min-width: 600px){
+
+    nav{
+        display: none;
+    }
+
+    header {
+        background: url(images/pexels-markus-spiske-1089438.jpg);
+        height: 550px;
+    }
+
+    header > div {
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.699);
+        height: inherit;
+    }
+    
+    header > div > div:first-of-type {
+        display: flex;
+        align-self: end;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 4rem;
+    }
+    
+    header > div > div:first-of-type ul {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        list-style-type: none;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.658);
+    }
+    
+    header > div > div:first-of-type ul li:hover {
+        color: rgb(0, 220, 199);
+        transition: 2s 1ms ease-in;
+    }
+    
+    header > div > div:first-of-type ul li:last-of-type {
+        background: rgb(0, 220, 199);
+        color: black;
+        padding: 0.8rem;
+        border-radius: 0.2rem;
+    }
+
+    header > div > div:first-of-type ul li:last-of-type > a {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    header > div > div:last-of-type {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 0;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        position: none;
+    }
+    
+    header > div > div:last-of-type p:first-of-type {
+        font-size: 2rem;
+        line-height: 2.5;
+    }
+    
+    header > div > div:last-of-type p:last-of-type {
+        font-size: 1.9rem;
+        padding-left: 0;
+    }
+
+    header > div > div:last-of-type > div {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .socialMediaLinks a {
+        padding: 1rem;
+        background: rgba(205, 205, 205, 0.404);
+        border-radius: 100%;
+    }
+
+    .socialMediaLinks a > i {
+        font-size: 27px;
+        color: black
+    }
+
+    .socialMediaLinks a > i:hover {
+        color: rgb(0, 220, 199);
+        transition: ease-in-out;
+    }
+
+    main > div:first-of-type > p {
+        font-size: 2rem;
+    } 
+
+    main > div:last-of-type {
+        flex-direction: row;
+        align-items: center;
+        gap: 4rem;
+    }
+    
+    main > div:last-of-type > div {
+        width: 450px;
+    }
+}
+
